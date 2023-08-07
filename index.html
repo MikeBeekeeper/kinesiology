@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Manrope:wght@400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Главная</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <a href="#" class="logo__link">Dr.Korshykov</a>
+            </div>
+            <button type="button" class="mob-menu-btn" data-menu-open >
+                <svg class="mob-menu-btn_icon" width="40px" height="40px">
+                  <use href="./images/symbol-defs.svg#icon-mob-menu-open"></use>
+                </svg>
+              </button>
+        </div>
+    </header>
+
+    <div class="mob-menu is-hidden" data-menu >
+
+      <div class="container mob-menu__container">
+
+        <div class="mob-menu__nav-wrap">
+        <div class="mob-menu-btn__wrapper container">
+          <button type="button" class="mob-menu-btn mob-menu-btn--close" data-menu-close >
+            <svg class="mob-menu-btn_icon" width="40px" height="40px">
+              <use href="./images/symbol-defs.svg#icon-mob-menu-close"></use>
+            </svg>
+          </button>
+        </div>
+        <nav>
+          <ul class="mob-menu__nav">
+            <li class="nav__item item"><a class=" nav__link nav__link--active link" href="./index.html">Главная</a></li>
+            <li class="nav__item item "><a class="nav__link link" href="./about.html">О себе</a></li>
+            <li class="nav__item item"><a class="nav__link link" href="./articles.html">Статьи</a></li>
+            <li class="nav__item item "><a class="nav__link link" href="./faq.html">Вопросы и ответы</a></li>
+            <li class="nav__item item "><a class="nav__link link" href="./feedback.html">Обратная связь</a></li>
+            <li class="nav__item item "><a class="nav__link link" href="./contacts.html">Контакты</a></li>
+            <li class="nav__item item "><a class="nav__link link" href="./rules.html">Правила</a></li>
+          </ul>
+        </nav>
+        </div>
+      
+        <div class="mob-menu__connect-wrap">
+        <!-- <div class="mob-menu__connect">    -->
+        <a class="header-connect__link header-connect__link--phone link" href="tel:+7(999)985-15-98">
+           +7 (999) 985-15-98
+        </a>
+        <!-- </div> -->
+        
+        <ul class="mob-menu__soc-list">
+          <li class="mob-menu__soc-item item">
+            <a href="" class="mob-menu__soc-link link">
+              Viber
+            </a>
+          </li>
+          <li class="mob-menu__soc-item item">
+            <a href="" class="mob-menu__soc-link link">
+              Telegram
+            </a>
+          </li>
+          <li class="mob-menu__soc-item item">
+            <a href="" class="mob-menu__soc-link link">
+              WhatsApp
+            </a>
+          </li>
+          <li class="mob-menu__soc-item item">
+            <a href="" class="mob-menu__soc-link link">
+               VK
+            </a>
+          </li>
+        </ul>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="container">
+          
+    </div>
+
+    <section class="section hero">
+        <div class="container hero__container">
+
+            <div class="hero__appointment-wrap">
+
+              <div class="hero__title--wrapper">
+                <h1 class="hero__title"> <b class="hero__title-name"> Коршиков Николай </b><br>
+                  прикладной кинезиолог <br>
+                  доктор Натуропатии  
+                </h1>
+              </div>
+
+              <div class="hero__img"></div>
+
+              <img src="./images/main.jpg" alt="" class="hero__img">
+
+              <button type="button" class="btn appointment-btn"><b>ЗАПИСАТЬСЯ НА ПРИЕМ</b></button>
+
+          </div>
+        </div>
+
+    </section>
+
+    <section>
+
+      <div class="container">
+
+      <h2 class="diagnosis__title">С чем ко мне обращаются </h2>
+            <ul class="diagnosis-card__list">
+
+              <li class="diagnosis-card">               
+                  <img src="./images/backbone.jpeg" alt="" class="diagnosis__img"  width="250px" height="250px">
+                  <ul class="diagnosis__list">
+                    <li class="diagnosis__item"><p>хронические боли опорно-двигательного аппарата</p></li>
+                    <li class="diagnosis__item"><p>грыжи, протрузии</p></li>
+                    <li class="diagnosis__item"><p>компрессионные синдромы</p></li>
+                    <li class="diagnosis__item"><p>радикулит</p></li>
+                    <li class="diagnosis__item"><p>cколиозы функциональные и идиопатические</p></li>
+                    <li class="diagnosis__item" ><p>ишиас, люмбаго</p></li>
+                  </ul>                
+              </li>
+
+              <li class="diagnosis-card">               
+                <img src="./images/knee.jpeg" alt="" class="diagnosis__img"  width="250px" height="250px">
+                <ul class="diagnosis__list">
+                  <li class="diagnosis__item"><p>артроз</p></li>
+                  <li class="diagnosis__item"><p>артрит</p></li>
+                  <li class="diagnosis__item"><p>суставные и связочные боли</p></li>
+                  <li class="diagnosis__item"><p>подагра</p></li>
+                  <li class="diagnosis__item"><p>Проблемы стоп (плоскостопие, вирус, вальгус)</p></li>
+                </ul>                
+            </li>
+
+            <li class="diagnosis-card">               
+              <img src="./images/head.jpeg" alt="" class="diagnosis__img"  width="250px" height="250px">
+              <ul class="diagnosis__list">
+                <li class="diagnosis__item"><p>головные боли</p></li>
+                <li class="diagnosis__item"><p>мигрени</p></li>
+                <li class="diagnosis__item"><p>боли и дисфункция височно-нижнечелюстного сустава</p></li>
+                <li class="diagnosis__item"><p>подготовка и коррекция постановки брекет системы</p></li>
+                <li class="diagnosis__item"><p>краниальные дисфункции</p></li>
+              </ul>                
+          </li>
+
+          <li class="diagnosis-card">               
+            <img src="./images/internal.jpeg" alt="" class="diagnosis__img"  width="250px" height="250px">
+            <ul class="diagnosis__list">
+              <li class="diagnosis__item"><p>метаболический синдром</p></li>
+              <li class="diagnosis__item"><p>инсулинорезистентность</p></li>
+              <li class="diagnosis__item"><p>скрытые воспаления</p></li>
+              <li class="diagnosis__item"><p>дисфункции работы иммунной системы и желудочно-кишечного тракта </p></li>
+              <li class="diagnosis__item"><p>синдром усталых надпочечников</p></li>
+            </ul>                
+        </li>
+
+        <li class="diagnosis-card">               
+          <img src="./images/backbone.jpeg" alt="" class="diagnosis__img"  width="250px" height="250px">
+          <ul class="diagnosis__list">
+            <li class="diagnosis__item"><p>аллергии</p></li>
+            <li class="diagnosis__item"><p>энергетические нарушения</p></li>
+            <li class="diagnosis__item"><p>нарушение канально-меридиональной системы</p></li>
+            <li class="diagnosis__item"><p>дисфункция чакральной системы организма</p></li>
+            <li class="diagnosis__item"><p>психосамотические нарушения</p></li>
+            <li class="diagnosis__item"><p>укрепление иммунитета</p></li>
+          </ul>                
+      </li>
+
+      <li class="diagnosis-card">               
+        <img src="./images/baby.jpeg" alt="" class="diagnosis__img" width="250px" height="250px">
+        <ul class="diagnosis__list">
+          <li class="diagnosis__item"><p>устранение aктивации приметивных рефлексов </p></li>
+        </ul>                
+    </li>
+            </ul>
+
+            <div class="btn-wrapper">
+              <button type="button" class="btn appointment-btn"><b>ЗАПИСАТЬСЯ НА ПРИЕМ</b></button>
+            </div>
+
+          </div>
+
+    </section>
+
+    <footer class="foot">
+      <div class="container container--foot">
+        <div class="container__foot-wrapper">
+          <a class="logo logo--foot" href="./index.html">Dr.Korshykov</a>
+          <address>
+            <a class="address-link address-link--google link" href="https://goo.gl/maps/3XUj1NRskDYEQrD18">г. Москва, Сретенский бульвар, д. 2</a>
+            <!-- <p>Ближайшая станция метро: “Тургеневская”. От метро — 350 м вдоль Сретенского бульвара. Около 5 мин пешком.</p> -->
+            <!-- <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a> -->
+            <a class="address-link link" href="tel:+7 (999) 985-15-98">+7 (999) 985-15-98</a>
+          </address>
+        </div>
+        <div class="container__foot-wrapper">
+          <div class="accession">
+            <b class="accession__title">Присоединяйтесь</b>
+            <ul class="accession__list">
+              <li>
+                <a href="" class="accession__link">
+                  <svg class="accession__icon">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="accession__link">
+                  <svg class="accession__icon">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="accession__link">
+                  <svg class="accession__icon">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="accession__link">
+                  <svg class="accession__icon">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="foot-subscribe-wrapper"> -->
+        
+           <!-- <div class="newsletter-subscription">
+            <b class="newsletter-subscription__title">
+              Підпишіться на розсилку
+            </b>
+            <div class="newsletter-subscription__wrap">
+              <input class="newsletter-subscription__field" type="email" name="subscribe" placeholder="E-mail">
+              <button class="newsletter-subscription__btn" type="submit">
+                Підписатися
+                <svg class="newsletter-subscription__icon" width="24px" height="24px">
+                  <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+           </div> -->
+          
+        <!-- </div> -->
+      </div>
+    </footer>
+    
+    <script src="./js/mobMenu.js"></script>
+</body>
+</html>

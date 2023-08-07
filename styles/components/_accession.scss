@@ -1,0 +1,55 @@
+.accession__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: var(--main-letter-spacing);
+    text-transform: uppercase;
+    color: rgba(103, 102, 102, 0.7);
+    margin-bottom: 20px;
+
+    display: block;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
+    
+}
+
+.accession__list {
+    display: flex;
+    gap: 10px;
+}
+
+.accession__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: rgba(103, 102, 102, 0.7);
+    background: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+        background-color: var(--accent-color);
+    }
+}
+
+.accession__icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+    .accesion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        justify-content: center;
+        align-items: center;
+    } 

@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.hero {
+    // width: 100vw;
+    padding-top: 40px;
+}
+
+.hero__container {
+    width: 100vw;
+    height: 100%;
+    padding: 15px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // align-items: center;
+}
+
+.hero__title--wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    // font-family: Manrope;
+}
+
+.hero__title-name {
+    font-size: 24px;
+    // color: rgba(255, 255, 255, 0.84);
+}
+
+.hero__img {
+    width: 100%;
+    // height: 2000px;
+    // background-image: url(../../images/main.jpg);
+    border-radius: 50%;
+}
+
+
+.hero__appointment-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.appointment-btn {
+    min-width: 300px;
+    min-height: 60px;
+    padding: 15px;
+    cursor: pointer;
+    // background-color: #b8abd4;
+    // background-color: #cfd6ce;
+    background-color: #3f5a43;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    outline: none;
+    box-shadow: 4px 4px 7px rgba(248, 243, 243, 0.12), 4px 4px 4px rgba(0,0,0,.14), 4px 5px 4px rgba(0,0,0,.2);
+    outline: transparent;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.1);
+    }
+}
+
+.text {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.diagnosis-card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.diagnosis-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.12), 0px 1px 1px rgba(0,0,0,.14), 0px 2px 1px rgba(0,0,0,.2);
+    background-color: #cfd6ce;
+}
+
+.diagnosis__item {
+    width: 100%;
+    border-radius: 20px;
+    // background-color: rgb(226, 211, 205, 0.3);
+    background-color: #fef6eb;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.12), 0px 1px 1px rgba(0,0,0,.14), 0px 2px 1px rgba(0,0,0,.2);
+    text-align: justify;
+}
+
+.diagnosis__title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.diagnosis__img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.diagnosis__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+// .hero__title--wrapper {
+//     width: 100%;
+//     height: 100vh;
+//     background-image: url(../../images/main-min.JPG);
+// }

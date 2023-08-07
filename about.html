@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+    <title>О себе</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+        <div class="logo">
+            <a href="#" class="logo__link">Dr.Korshykov</a>
+        </div>
+        <button type="button" class="mob-menu-btn" data-menu-open >
+            <svg class="mob-menu-btn_icon" width="40px" height="40px">
+              <use href="./images/symbol-defs.svg#icon-mob-menu-open"></use>
+            </svg>
+          </button>
+    </div>
+</header>
+
+<div class="mob-menu is-hidden" data-menu >
+
+  <div class="container mob-menu__container">
+
+    <div class="mob-menu__nav-wrap">
+    <div class="mob-menu-btn__wrapper container">
+      <button type="button" class="mob-menu-btn mob-menu-btn--close" data-menu-close >
+        <svg class="mob-menu-btn_icon" width="40px" height="40px">
+          <use href="./images/symbol-defs.svg#icon-mob-menu-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav>
+      <ul class="mob-menu__nav">
+        <li class="nav__item item"><a class=" nav__link link" href="./index.html">Главная</a></li>
+        <li class="nav__item item "><a class="nav__link nav__link--active link" href="./about.html">О себе</a></li>
+        <li class="nav__item item"><a class="nav__link link" href="./articles.html">Статьи</a></li>
+        <li class="nav__item item "><a class="nav__link link" href="./faq.html">Вопросы и ответы</a></li>
+        <li class="nav__item item "><a class="nav__link link" href="./feedback.html">Обратная связь</a></li>
+        <li class="nav__item item "><a class="nav__link link" href="./contacts.html">Контакты</a></li>
+        <li class="nav__item item "><a class="nav__link link" href="./rules.html">Правила</a></li>
+      </ul>
+    </nav>
+    </div>
+  
+    <div class="mob-menu__connect-wrap">
+    <!-- <div class="mob-menu__connect">    -->
+    <a class="header-connect__link header-connect__link--phone link" href="tel:+7(999)985-15-98">
+       +7 (999) 985-15-98
+    </a>
+    <!-- </div> -->
+    
+    <ul class="mob-menu__soc-list">
+      <li class="mob-menu__soc-item item">
+        <a href="" class="mob-menu__soc-link link">
+          Viber
+        </a>
+      </li>
+      <li class="mob-menu__soc-item item">
+        <a href="" class="mob-menu__soc-link link">
+          Telegram
+        </a>
+      </li>
+      <li class="mob-menu__soc-item item">
+        <a href="" class="mob-menu__soc-link link">
+          WhatsApp
+        </a>
+      </li>
+      <li class="mob-menu__soc-item item">
+        <a href="" class="mob-menu__soc-link link">
+           VK
+        </a>
+      </li>
+    </ul>
+    </div>
+
+  </div>
+  
+</div>
+        
+<section class=" section about">
+  <div class="container">
+    <h1 class="visually-hidden">Информация про доктора Коршикова Николая</h1>
+
+    <div class="about__title-wrap">
+      <img src="./images/about.JPG" alt="портретное фото доктора Коршикова" class="about-img">
+
+    <p class="about__title-descr">Здравствуйте, меня зовут Коршиков Николай Николаевич! <br>
+      Я Доктор Натуропатии, прикладной кинезиолог, магистр медицины, спа-мастер высшей категории, специалист по лечебному массажу, автор методики «Локальный метод ручного воздействия на гормональную подкожную-жировую клетчатку «Ручное скульптурное липо-моделирование». <br>    
+      Более 10-ти лет занимаюсь оздоровительными практиками, имею опыт работы лечебных учреждениях, спортивных клубах, SPA- центрах, центрах обучения техникам массажа.</p>
+    </div>
+
+      <div class="about__title--margin-wrap"><h2 class="about__title">Образование :</h2></div>
+      <ul class="about__list">
+        <li class="about__item"> 
+          <p> <span>2023 </span><span> - </span><b>РОССИЙСКИЙ ИНСТИТУТ ИННОВАЦИОННОЙ НАТУРОПАТИИ</b></p>
+          <p>Доктор Натуропатии / Doctor of Naturopathy (ND)</p>
+        </li>
+
+        <li class="about__item">
+          <p> <span>2019 - 2022</span><span> - </span><b>АКАДЕМИЯ МЕДИЦИНСКОЙ КИНЕЗИОЛОГИИ И МАНУАЛЬНОЙ ТЕРАПИИ</b></p>
+          <ul>
+            <li>
+              <p><b>Кинезиология функциональная и прикладная</b></p>
+              <ul>
+                <li><p>Базовый курс реабилитации</p></li>
+              </ul>             
+            </li>
+            <li>
+              <p><b>Восстановление адаптационных механизмов организма при помощи химической, эмоциональной и вегетативной коррекции</b></p>
+              <ul>
+                <li><p>Функциональные нарушения химических процессов.</p></li>
+                <li><p>Функциональные нарушения в эмоциональной сфере.</p></li>
+                <li><p>Вегетативная нервная система.</p></li>
+              </ul>
+            </li>
+            <li>
+              <p><b>Восстановление адаптационных механизмов организма</b></p>
+              <ul>
+                <li><p>Адаптационные процессы.</p></li>
+                <li><p>Электромагнетизм.</p></li>
+              </ul>
+            </li>
+            <li>
+              <p><b>Нейрокинезиотерапевтический подход в коррекции неврологических нарушений у детей и взрослых</b></p>
+              <ul>
+                <li><p>Неврологические нарушения у новорожденных: причины, последствия, меры и профилактика.</p></li>
+                <li><p>Кинезиология новорожденных. </p></li>
+                <li><p>Формирования движений в норме.</p></li>
+                <li><p>Нарушения формирования движений,их причины и последствия.</p></li>
+                <li><p>Возможности восстановления физиологичной эволюционно- обоснованной программы движений человека. </p></li>
+                <li><p>Сенсорная интеграция и мозг.</p></li>
+                <li><p>Нейропластичность мозга.</p></li>
+                <li><p>Использование различных методов двигательной терапии в коррекции нарушений.</p></li>
+              </ul>
+            </li>
+            <li>
+              <p><b>Восстановление адаптационных механизмов организма при помощи химической, эмоциональной, энергетической коррекции и восстановления вегетативного баланса</b></p>
+              <ul>
+                <li><p>Чудесные меридианы.</p></li>
+                <li><p>Основные меридианы.</p></li>
+                <li><p>Эндокринная система.</p></li>
+                <li><p>Функциональные нарушения биохимических процессов. </p></li>
+                <li><p>Патологическая активность примитивных рефлексов.</p></li>
+                <li><p>Функциональные сколиозы. </p></li>
+                <li><p>Медицинская кинезиология в патологии новорожденых.</p></li>
+              </ul>
+            </li>
+            <li>
+              <p><b>Медицинская кинезиология в клинической практике невролога и ортопеда</b> <br>
+                Интерпретация клинических проявлений различных заболеваний и их коррекция:</p>
+                <ul>
+                  <li><p>Грудобрюшная диафрагма.</p></li>
+                  <li><p>Органы брюшной полости.</p></li>
+                  <li><p>Органы малого таза и легких.</p></li>
+                  <li><p>Кранио- сакральная терапия.</p></li>
+                  <li><p>Височно- нижнечелюстной сустав (ВНЧС).</p></li>
+                </ul>
+            </li>
+            <li>
+              <p><b>Кинезиологическая Диагностика и коррекция патобиомеханических изменений мышечно-скелетной системы</b></p>
+              <ul>
+                <li><p>Мануальная терапия тазового региона.</p></li>
+                <li><p>Мануальная терапия грудного и поясничного региона.</p></li>
+                <li><p>Мануальная терапия шейного региона.</p></li>
+              </ul>
+            </li>
+            <li>
+              <p><b>Введение в алгоритм кинезиологической диагностики локализации первичного
+                слабого звена мышечно-скелетной системы и определение причин его возникновение</b></p>
+                <ul>
+                  <li><p>Мануальное мышечное тестирование.</p></li>
+                  <li><p>Мышечные-Фасциальные цепи.</p></li>
+                  <li><p>Визуальная диагностика неоптимальности статики и динамики.</p></li>
+                </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2020 - 2024 </span><span> - </span><b>ТЕРНОПОЛЬСКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМЕНИ И.Я. ГОРБАЧЕВСКОГО</b></p>
+          <ul>
+            <li><p>Магистр по специальности «Сестринское дело»</p></li>
+            <li><p>Бакалавр по специальности «Сестринское дело» </p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2017 </span><span> - </span><b>КРИВОРОЖСКИЙ МЕДИЦИНСКИЙ КОЛЛЕДЖ</b></p>
+          <ul>
+            <li><p>Младший специалист «Сестринское дело»</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2017 </span><span> - </span><b>КУ "КРИВОРОЖСКИЙ КОЛЛЕДЖ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ ПЕРЕПОДГОТОВКИ МЛАДШИХ МЕДИЦИНСКИХ И ФАРМАЦЕВТИЧЕСКИХ СПЕЦИАЛИСТОВ" ДОС</b></p>
+          <ul>
+            <li>
+              <p>Сестра медицинская по массажу «Лечебный массаж»</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2020 </span><span> - </span><b>СВИДЕТЕЛЬСТВО О ДЕПОНИРОВАНИИ ПРОИЗВЕДЕНИЯ № 020-010673</b></p> <br>
+          <p>
+            АВТОР И ПРАВООБЛАДАТЕЛЬ: <br>
+            «Локальный метод ручного воздействия на гормональную подкожную- жировую клетчатку «Ручное скульптурное липо- моделирование». <br>           
+            ISBN: 978-5-4472-9375-8</p>
+        </li>
+
+      </ul>
+
+      <div class="about__title--margin-wrap"><h2 class="about__title">Курсы массажа :</h2></div>
+      <ul class="about__list">
+        <li class="about__item">
+          <p><span>2015 - 2016</span> <span>-</span> <b>УКРАИНСКАЯ ШКОЛА СПА</b></p>
+          <ul>
+            <li><p>Лимфодренажный массаж</p></li>
+            <li><p>Академический антицеллюлитный массаж</p></li>
+            <li><p>Медовый массаж</p></li>
+            <li><p>Фитнес массаж</p></li>
+            <li><p>Методология "Саматотерапия в массаже" </p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2015 - 2016</span> <span>-</span> <b>ШКОЛА МАССАЖНОГО ИСКУССТВА "ЖИВА"</b></p>
+          <ul>
+            <li><p>SPA специалист </p></li>
+            <li><p>Постизометрическая релаксация</p></li>
+            <li><p>СПА- техники в программах коррекции фигуры</p></li>
+            <li><p>Особенности проведения массажа во время беременности</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2015</span> <span>-</span> <b>СТУДИЯ МАССАЖНОГО ИСКУССТВА "GRASA"</b></p>
+          <ul>
+            <li><p>Техника Гуаша в практике массажиста </p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2014</span> <span>-</span> <b>ЦЕНТР ПОДГОТОВКИ И РАЗВИТИЯ МАССАЖИСТОВ</b></p>
+          <ul>
+            <li><p>Тайский массаж</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2012</span> <span>-</span> Учебный центр Евгения Садовая</p>
+          <ul>
+            <li><p>Массажист СПА- технолог</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2010</span> <span>-</span> <b>ЦЕНТР РАЗВИТИЯ ЛИЧНОСТИ "ЛИГОР"</b></p>
+          <ul>
+            <li><p>Классический массаж</p></li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <div class="about__title--margin-wrap"><h2 class="about__title">Курсы повышения квалификации :</h2></div>
+      <ul class="about__list">
+        <li class="about__item">
+          <p><span>2022</span> <span>-</span> <b>ШКОЛА ФИДЕЛЯ СУББОТИНА</b></p>
+          <ul>
+            <li><p>Диагностика и терапия голеностопного сустава и стопы</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2021</span> <span>-</span> <b>АССОЦИАЦИЯ "ЛИГА ПЕДИАТРИИ"</b></p>
+          <ul>
+            <li><p>Педиатрия</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2018 </span><span>-</span> <b>ENHEL BEATY</b></p>
+          <ul>
+            <li><p>For The Theory and Practice of Hydrogen Cosmetics Conference is awarded to</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2017</span> <span>-</span> <b>ООО "ОСЕАН ТАЛАССО СПА</b></p>
+          <ul>
+            <li><p>Профессиональные уходы La Sultane de Saba</p></li>
+            <li><p>Профессиональные уходы THALION</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2017</span> <span>-</span> <b>ERSTA BEATY - ТЕХНОЛОГИИ ЛИДЕРСТВА</b>ersta Beauty- технологии лидерства</p>
+          <ul>
+            <li><p>ST - BARTH</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2017</span> <span>-</span> <b>MED MEDI SPA TECHNOLOGY</b> </p>
+          <ul>
+            <li><p>Инновационные Технологии фракционного вакуумного массажа на аппарате ICOONE</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2017</span> <span>-</span> <b>СПОРТ МЕД ИМПОРТ</b></p>
+          <ul>
+            <li><p>аппарат «Futura Pro» (Биостимуляция, ультразвук, микротоки для лица и тела)</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2016</span> <span>-</span> <b>МЕЖДУНАРОДНАЯ ШКОЛА СПА</b></p>
+          <ul>
+            <li><p>Технология и менеджмент классической модели СПА 
+              с присвоением статуса СПА- МАСТЕР ВЫСШЕЙ КАТЕГОРИИ</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2015 - 2016</span> <span>-</span> <b>ЦЕНТР ПОДГОТОВКИ И РАЗВИТИЯ МАССАЖИСТОВ</b></p>
+          <ul>
+            <li><p>Кинезиотейпинг</p></li>
+            <li><p>Криворожский форум массажных технологий</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2015</span> <span>-</span> <b>ЦЕНТР ПОДГОТОВКИ МАССАЖИСТОВ</b></p>
+          <ul>
+            <li><p>2-ой Днепропетровский форум массажных технологий</p></li>
+          </ul>
+        </li>
+     
+      </ul>
+
+      <div class="about__title--margin-wrap"><h2 class="about__title">Благодарственные письма :</h2></div>
+      <ul class="about__list">
+        <li class="about__item">
+          <p><span>2021</span> <span>-</span> <b></b>Центр подготовки и трудоустройства массажистов</p>
+          <ul>
+            <li><p>Благодарственное письмо за проведение практического семинара по фитнес скульптурирующему массажу.</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2016</span> <span>-</span> Центр подготовки и трудоустройства массажистов</p>
+          <ul>
+            <li><p>Благодарственное письмо за проведение обзорного практического мастер — класса
+              Аэробно моделирующего массажа.</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2015</span> <span>-</span> Центр подготовки и развития массажистов</p>
+          <ul>
+            <li><p>Благодарственное письмо за работу с молодёжью, популяризацию спорта, здорового образа жизни и большой вклад в развитие массажных технологий.</p></li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <div class="about__title--margin-wrap"><h2 class="about__title">Участие в чемпианатах по массажу</h2></div>
+      <ul class="about__list">
+        <li class="about__item">
+          <p><span>2015</span> <span>-</span> Днепропетровский чемпионат по классическому и SPA- массажу</p>
+          <ul>
+            <li><p>Победитель чемпионата в номинации 
+              «Лучший этнический массаж»              
+              «Приз зрительских симпатий»</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2015</span> <span>-</span> 2-ой Открытый чемпионат Южного региона Украины по SPA- массажу</p>
+          <ul>
+            <li><p>Победитель чемпионата в номинации 
+              «Мастерство и профессионализм»</p></li>
+          </ul>
+        </li>
+
+        <li class="about__item">
+          <p><span>2014</span> <span>-</span> Открытый чемпионат Харькова по спа массажу</p>
+          <ul>
+            <li><p>Участник чемпионата</p></li>
+          </ul>
+        </li>
+      </ul>
+
+
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="container container--foot">
+    <div class="container__foot-wrapper">
+      <a class="logo logo--foot" href="./index.html">Dr.Korshykov</a>
+      <address>
+        <a class="address-link address-link--google link" href="https://goo.gl/maps/3XUj1NRskDYEQrD18">г. Москва, Сретенский бульвар, д. 2</a>
+        <!-- <p>Ближайшая станция метро: “Тургеневская”. От метро — 350 м вдоль Сретенского бульвара. Около 5 мин пешком.</p> -->
+        <!-- <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a> -->
+        <a class="address-link link" href="tel:+7 (999) 985-15-98">+7 (999) 985-15-98</a>
+      </address>
+    </div>
+    <div class="container__foot-wrapper">
+      <div class="accession">
+        <b class="accession__title">Присоединяйтесь</b>
+        <ul class="accession__list">
+          <li>
+            <a href="" class="accession__link">
+              <svg class="accession__icon">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="accession__link">
+              <svg class="accession__icon">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="accession__link">
+              <svg class="accession__icon">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="accession__link">
+              <svg class="accession__icon">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="foot-subscribe-wrapper"> -->
+    
+       <!-- <div class="newsletter-subscription">
+        <b class="newsletter-subscription__title">
+          Підпишіться на розсилку
+        </b>
+        <div class="newsletter-subscription__wrap">
+          <input class="newsletter-subscription__field" type="email" name="subscribe" placeholder="E-mail">
+          <button class="newsletter-subscription__btn" type="submit">
+            Підписатися
+            <svg class="newsletter-subscription__icon" width="24px" height="24px">
+              <use href="./images/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
+       </div> -->
+      
+    <!-- </div> -->
+  </div>
+</footer>
+    
+  <script src="./js/mobMenu.js"></script>
+</body>
+</html>

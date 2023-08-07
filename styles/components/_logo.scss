@@ -1,0 +1,29 @@
+.logo {
+    // color: var(--main-logo-color);
+    color: #79857b;
+    font-family: 'Comforta', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: var(--logo-letter-spacing);
+    text-decoration: none;
+
+        &--foot {
+            font-family: 'Comforta', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            letter-spacing: var(--main-letter-spacing);
+            // color: var(--foot-logo-color);
+            text-decoration: none;
+    
+            display: block;
+            margin-bottom: 20px;
+
+            text-align: center;
+
+            @media screen and (min-width: 1200px) {
+                text-align: left;
+            }
+        }
+}
